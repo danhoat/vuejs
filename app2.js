@@ -1,11 +1,12 @@
-import { createApp } from 'vue'
+const { createApp, ref, computed } = Vue;
 const app = createApp({
-  data() {
+  setup() {
+    const someValue = ref(10);
+    const someComputed = computed(() => someValue.value * 10);
     return {
-      count: 0,
-      ms:'123'
+      someValue,
+      someComputed
     }
   }
-})
-
-app.mount('#app2')
+});
+app.mount("#app");
