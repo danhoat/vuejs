@@ -1,0 +1,16 @@
+https://vuejs.org/guide/quick-start.html#using-vue-from-cdn
+https://vuejs.org/guide/quick-start.html#using-vue-from-cdn
+
+https://vuejs.org/guide/essentials/application.html#the-root-component
+
+import { createApp } from 'vue'
+// import the root component App from a single-file component.
+import App from './App.vue'
+
+const app = createApp(App)
+
+https://vuejs.org/guide/essentials/reactivity-fundamentals.html#script-setup
+
+https://www.w3schools.com/vue/vue_methods.php
+
+https://beginnersoftwaredeveloper.com/how-to-instal-vue-js/
